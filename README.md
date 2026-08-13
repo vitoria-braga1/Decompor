@@ -1,75 +1,51 @@
-# 📞 Análise de Desempenho de Operadores - CallMeMaybe
+# 📞 CallMeMaybe — Operator Performance Analysis
 
-##  Objetivo do projeto
+## Project Overview
 
-A empresa **CallMeMaybe**, que atua no setor de telefonia, deseja avaliar o desempenho de seus operadores de atendimento.
+This project analyzes call-center data for CallMeMaybe to identify patterns of operator performance and potential operational inefficiencies.
 
-O objetivo deste projeto é analisar os dados de chamadas para identificar **operadores ineficientes**, considerando fatores como:
+## Business Questions
 
-- Alto número de chamadas recebidas perdidas
-- Tempo de espera elevado nas chamadas
-- Baixo volume de chamadas atendidas
+- Which operators have a high number of missed incoming calls?
+- Which operators have longer waiting times?
+- Which operators handle a lower volume of calls?
+- What patterns may indicate opportunities to improve service efficiency?
 
-A análise foi realizada utilizando dois conjuntos de dados:
+## Key Findings
+
+The analysis was used to identify operators with higher numbers of missed calls, examine average waiting times, compare operator performance, and highlight potential efficiency issues.
+
+## Data
+
+The analysis uses:
 
 - `telecom_dataset_us.csv`
 - `telecom_clients_us.csv`
 
-Com base nesses dados, foi realizada uma **análise exploratória** para identificar padrões e possíveis problemas no desempenho dos operadores.
+## Tools & Skills
 
----
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Data cleaning and preparation
+- Exploratory Data Analysis (EDA)
+- Operational metrics
+- Business-oriented interpretation
 
-## Resultado
+## What I Practiced
 
-Após a análise dos dados, foi possível:
+- Importing and preparing datasets
+- Identifying missing values and inconsistencies
+- Exploratory analysis
+- Building performance metrics
+- Visualizing operational indicators
+- Translating data into business-oriented conclusions
 
-- Identificar **operadores com alto número de chamadas perdidas**.
-- Analisar o **tempo médio de espera das chamadas recebidas**.
-- Detectar padrões de **ineficiência no atendimento**.
-- Comparar o desempenho entre operadores e identificar possíveis pontos de melhoria no atendimento.
+## Future Improvements
 
-Essas análises ajudam a empresa a **monitorar a qualidade do atendimento e tomar decisões para melhorar a eficiência da equipe**.
-
----
-
-## Ferramentas utilizadas
-
-As seguintes ferramentas foram utilizadas para o desenvolvimento do projeto:
-
-- **Python**
-- **Pandas** – manipulação e análise de dados
-- **NumPy** – operações numéricas
-- **Matplotlib** – visualização de dados
-- **Jupyter Notebook** – ambiente de desenvolvimento e documentação da análise
-
----
-
-## O que eu aprendi
-
-Durante o desenvolvimento deste projeto, foram desenvolvidas e aprimoradas diversas habilidades em análise de dados, incluindo:
-
-- Importação e manipulação de datasets
-- Limpeza e preparação de dados
-- Identificação de **valores ausentes e inconsistências**
-- **Análise exploratória de dados (EDA)**
-- Criação de **visualizações para análise de desempenho**
-- Interpretação de métricas relacionadas ao atendimento telefônico
-- Identificação de **padrões de eficiência e ineficiência operacional**
-
-Além disso, o projeto contribuiu para melhorar a capacidade de **interpretar dados para apoiar decisões de negócio**.
-
----
-
-## Melhorias futuras
-
-Algumas melhorias que podem ser implementadas no projeto incluem:
-
-- Criar **dashboards interativos** para acompanhamento do desempenho dos operadores.
-- Aplicar **testes estatísticos** para validar os resultados da análise.
-- Desenvolver **modelos preditivos** para prever possíveis problemas de desempenho.
-- Analisar mais métricas relacionadas à experiência do cliente.
-- Melhorar a **visualização dos dados** com gráficos mais detalhados.
-
----
-
-✉️ Este projeto faz parte do meu aprendizado em **Análise de Dados**, com foco em exploração, limpeza e interpretação de dados para geração de insights.
+- Build an interactive performance dashboard in Tableau or Power BI.
+- Add statistical tests to validate relevant findings.
+- Explore predictive approaches for identifying potential performance issues.
+- Expand the analysis with additional customer-experience metrics.
